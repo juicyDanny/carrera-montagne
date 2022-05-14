@@ -1,0 +1,33 @@
+/* HEADER */
+nav li {
+    display: inline;
+}
+nav a {
+    text-decoration: none;
+}
+
+/* BODY */
+body {
+    margin: 0px;
+}
+
+/* FOOTER */
+footer{
+    display: flex;
+    width: 100%;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.271), rgba(255, 255, 255, 0.195)), url(../img/montaña-1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.redes_sociales {
+    margin-left: auto;
+    margin-right: auto;
+}
+footer img {
+    width: 30px;
+    height: 30px;
+}
+footer li {
+    text-decoration: none;
+    display: inline;
+}
