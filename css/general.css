@@ -9,6 +9,7 @@ nav a {
 /* BODY */
 body {
     margin: 0px;
+    text-align: center;
 }
 
 /* FOOTER */
@@ -30,4 +31,8 @@ footer img {
 footer li {
     text-decoration: none;
     display: inline;
+}
+.flyer{
+    margin:auto;
+    border:none;
 }
