@@ -1,4 +1,8 @@
 /* HEADER */
+nav{
+    display: inline-flex;
+    width: 100%;
+}
 nav li {
     display: inline;
 }
@@ -35,4 +39,14 @@ footer li {
 .flyer{
     margin:auto;
     border:none;
+}
+
+.boton-home{
+    text-align: left;
+}
+.botones{
+    text-align: right;
+}
+.boton-home, .botones{
+    width: 100%;
 }
