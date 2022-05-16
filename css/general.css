@@ -1,52 +1,106 @@
-/* HEADER */
-nav{
-    display: inline-flex;
-    width: 100%;
-}
-nav li {
-    display: inline;
-}
-nav a {
+/* GENERAL */
+a {
     text-decoration: none;
 }
 
-/* BODY */
+ul {
+    list-style: none;
+}
+
 body {
-    margin: 0px;
+    margin: auto;
     text-align: center;
 }
 
-/* FOOTER */
-footer{
-    display: flex;
-    width: 100%;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.271), rgba(255, 255, 255, 0.195)), url(../img/montaña-1.jpg);
-    background-size: cover;
-    background-position: center;
-}
-.redes_sociales {
-    margin-left: auto;
-    margin-right: auto;
-}
-footer img {
-    width: 30px;
-    height: 30px;
-}
-footer li {
-    text-decoration: none;
-    display: inline;
-}
-.flyer{
-    margin:auto;
-    border:none;
+.contenedor {
+    margin: auto;
+    width: 90%;
+    background-color: rgb(128, 128, 128);
 }
 
-.boton-home{
-    text-align: left;
+nav {
+    padding: 5px 25px;
+    background-color: rgb(204, 255, 255);
 }
-.botones{
+
+nav ul {
     text-align: right;
 }
-.boton-home, .botones{
+
+footer,
+nav {
     width: 100%;
+    padding: 15px 0;
+    display: inline-flex;
+}
+
+footer li,
+nav li {
+    display: inline-block;
+}
+
+footer {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.271), rgba(255, 255, 255, 0.195)), url(../img/montaña-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.redes_sociales {
+    margin: auto;
+}
+
+footer img {
+    width: 35px;
+    height: 35px;
+}
+
+.flyer {
+    margin: auto;
+    border: none;
+}
+
+.boton-home {
+    margin-left: 10px;
+    text-align: left;
+}
+
+.botones {
+    text-align: right;
+    width: 100%;
+}
+
+nav li {
+    color: black;
+    background-color: #FFF;
+    padding: 5px 25px;
+    margin: 0 10px;
+    border-radius: 3px;
+}
+.log-in{
+    background-color: black;
+}
+.log-in a {
+    color: #E2001A;
+}
+
+.carousel {
+    background-color:#E2001A;
+    color:yellow;
+}
+.imagenes, .botonera-carousel {
+    background-color: rgb(66, 66, 66);
+    text-align: center;
+    display: flex;
+}
+.boton-izq, .boton-der, .botonera-carousel li{
+    width: 100%;
+    color: yellow;
+}
+.galeria{
+    display: inline-flex;
+    padding: 50px;
+}
+.galeria li{
+    margin: 10px;
 }
