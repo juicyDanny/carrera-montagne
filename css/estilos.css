@@ -2,88 +2,85 @@
 a {
     text-decoration: none;
 }
-
 ul {
     list-style: none;
 }
-
 body {
     margin: auto;
     text-align: center;
 }
-
 .contenedor {
     margin: auto;
-    width: 90%;
     background-color: rgb(128, 128, 128);
 }
 
+/* HEADER */
+.boton-home {
+    text-align: left;
+    background-image: url(/img/fondo-detalles.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 215px;
+}
+.boton-home img {
+    padding-left: 15px;
+    padding-top: 5px;
+}
+.botones {
+    text-align: right;
+    width: 100%;
+}
 nav {
     padding: 5px 25px;
-    background-color: rgb(204, 255, 255);
+    background-color: black;
+    width: 100%;
+    padding: 0;
+    display: inline-flex;
 }
-
-nav ul {
-    text-align: right;
+.botones ul {
+    margin-right: 40px;
 }
+.botones li {
+    color: black;
+    background-color: #ffffff;
+    padding: 5px 25px;
+    margin: 0 10px;
+    border-radius: 3px;
+    display: inline-block;
+    border: solid;
+    border-color: #ffffff;
+    border-width: 1px;
+    width: 90px;
+    text-align: center;
+}
+.botones li:hover,
+.botones li:hover a{
+    background-color: black;
+    color: #E2001A;
+}
+/* .botones li:hover{
+    border: solid;
+    border-color: #ffffff;
+} */
 
-footer,
-nav {
+/* FOOTER */
+footer li{
+    display: inline-block;
+}
+footer {
     width: 100%;
     padding: 15px 0;
     display: inline-flex;
-}
-
-footer li,
-nav li {
-    display: inline-block;
-}
-
-footer {
     background-image: linear-gradient(rgba(255, 255, 255, 0.271), rgba(255, 255, 255, 0.195)), url(../img/montaña-1.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 .redes_sociales {
     margin: auto;
 }
 
-footer img {
-    width: 35px;
-    height: 35px;
-}
-
-.flyer {
-    margin: auto;
-    border: none;
-}
-
-.boton-home {
-    margin-left: 10px;
-    text-align: left;
-}
-
-.botones {
-    text-align: right;
-    width: 100%;
-}
-
-nav li {
-    color: black;
-    background-color: #FFF;
-    padding: 5px 25px;
-    margin: 0 10px;
-    border-radius: 3px;
-}
-.log-in{
-    background-color: #E2001A;
-}
-.log-in a {
-    color: #ffffff;
-}
-
+/* HOME */
 .carousel {
     background-color:#E2001A;
     color:yellow;
