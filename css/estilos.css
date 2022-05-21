@@ -1,13 +1,17 @@
 /* GENERAL */
 a {
     text-decoration: none;
+    color: black;
 }
 ul {
     list-style: none;
 }
 body {
-    margin: auto;
+    margin: 0;
+    padding: 0;
+    display: grid;
     text-align: center;
+    font-family:  'Graduate', cursive;
 }
 .contenedor {
     margin: auto;
@@ -17,7 +21,7 @@ body {
 /* HEADER */
 .boton-home {
     text-align: left;
-    background-image: url(/img/fondo-detalles.png);
+    background-image: url(../img/fondo-detalles.png);
     background-size: cover;
     background-repeat: no-repeat;
     width: 215px;
@@ -40,7 +44,7 @@ nav {
 .botones ul {
     margin-right: 40px;
 }
-.botones li {
+.botones .boton-menu {
     color: black;
     background-color: #ffffff;
     padding: 5px 25px;
@@ -53,15 +57,11 @@ nav {
     width: 90px;
     text-align: center;
 }
-.botones li:hover,
-.botones li:hover a{
+.botones .boton-menu:hover,
+.botones .boton-menu:hover a{
     background-color: black;
     color: #E2001A;
 }
-/* .botones li:hover{
-    border: solid;
-    border-color: #ffffff;
-} */
 
 /* FOOTER */
 footer li{
@@ -76,7 +76,7 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
 }
-.redes_sociales {
+.redes-sociales {
     margin: auto;
 }
 
@@ -85,12 +85,14 @@ footer {
     background-color:#E2001A;
     color:yellow;
 }
-.imagenes, .botonera-carousel {
+.imagenes,
+.botonera-carousel {
     background-color: rgb(66, 66, 66);
     text-align: center;
     display: flex;
 }
-.boton-izq, .boton-der, .botonera-carousel li{
+.boton-izq, .boton-der,
+.botonera-carousel li{
     width: 100%;
     color: yellow;
 }
@@ -100,4 +102,36 @@ footer {
 }
 .galeria li{
     margin: 10px;
+}
+
+/* MARATON DE FEDE */
+
+/* MEDIA QUERY */
+@media (max-width: 768px) {
+    header,
+    header nav,
+    header nav li{
+        width: 100%;
+    }
+    .boton-home {
+        height: 55px;
+        width: 300px;
+    }
+    .boton-home img {
+        padding-left: 10px;
+    }
+    .botones {
+        text-align: center;
+    }
+    .botones ul {
+        margin: 8px 10px;
+        padding-left: 0px;
+        height: 40px;
+    }
+    .botones .boton-menu {
+        padding: 1px;
+        font-size: 10px;
+        margin: 2px 5px;
+        width: 80px;
+    }
 }
