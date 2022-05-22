@@ -9,13 +9,15 @@ ul {
 body {
     margin: 0;
     padding: 0;
-    display: grid;
+    display: block;
     text-align: center;
     font-family:  'Graduate', cursive;
+    width: 100%;
+    grid-template-rows: auto 1fr auto;
 }
 .contenedor {
     margin: auto;
-    background-color: rgb(128, 128, 128);
+    background-color: #ffffff;
 }
 
 /* HEADER */
@@ -48,7 +50,7 @@ nav {
     color: black;
     background-color: #ffffff;
     padding: 5px 25px;
-    margin: 0 10px;
+    margin: 0 25px;
     border-radius: 3px;
     display: inline-block;
     border: solid;
@@ -69,69 +71,167 @@ footer li{
 }
 footer {
     width: 100%;
-    padding: 15px 0;
-    display: inline-flex;
+    height: 165px;
+    padding: 15px;
     background-image: linear-gradient(rgba(255, 255, 255, 0.271), rgba(255, 255, 255, 0.195)), url(../img/montaña-1.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+.redes-sociales ul {
+    padding: 50px 0px 0px 0px;
+    margin: 0px;
+}
 .redes-sociales {
     margin: auto;
 }
+.redes-sociales li {
+    padding: 0px 50px;
+}
+footer p {
+    margin-bottom: 0px;
+}
 
 /* HOME */
-.carousel {
-    background-color:#E2001A;
-    color:yellow;
+.resaltado-home {
+    background-color: #E2001A;
+    color: #ffffff;
+    margin: 0px;
+    padding: 5px;
 }
-.imagenes,
-.botonera-carousel {
-    background-color: rgb(66, 66, 66);
-    text-align: center;
-    display: flex;
+.resaltado-home h2 {
+    margin: 0px;
 }
-.boton-izq, .boton-der,
-.botonera-carousel li{
+.vitriera-home.boton-home,
+.vitriera-home img {
+    margin: 0px;
+    padding: 0px;
+}
+.vitriera-home img {
+    height: 100%;
     width: 100%;
-    color: yellow;
 }
-.galeria{
-    display: inline-flex;
-    padding: 50px;
+.separador-home {
+    background-color: black;
+    height: 10px;
 }
-.galeria li{
-    margin: 10px;
+.tienda-home {
+    background-color: #E1E1E1;
+}
+.tienda-home .articulo-home {
+    display: inline-block;
+    margin: 20px 20px 0px 20px;
+}
+.articulo-home img{
+    height: 300px;
+    width: 225px;
+}
+.comunidad-home {
+    background-image: url(/img/comunidad-home.png);
+    background-size: cover;
+    background-position: center;
+}
+.planeta-home{
+    background-image: url(/img/planeta-home.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.comunidad-home h3,
+.planeta-home h3 {
+    color: #ffffff;
+    display: inline-block;
+    margin-top: 80px;
+}
+.comunidad-home h4,
+.planeta-home h4 {
+    color: #ffffff;
+    display: inline-block;
+    border: solid;
+    border-color: #ffffff;
+    border-width: 1px;
+    margin: 10px 10px 80px 10px;
+    padding: 7PX;
+    border-radius: 2px;
+}
+.comunidad-home h4:hover,
+.planeta-home h4:hover {
+    background-color: #ffffff;
+    color: #000000;
 }
 
 /* MARATON DE FEDE */
 
 /* MEDIA QUERY */
 @media (max-width: 768px) {
+    body{
+        display: grid;
+    }
+    /* HEADER */
     header,
     header nav,
     header nav li{
         width: 100%;
     }
     .boton-home {
-        height: 55px;
-        width: 300px;
+        height: 46px;
+        width: 188px;
     }
     .boton-home img {
         padding-left: 10px;
+        width: 75px;
     }
     .botones {
         text-align: center;
     }
     .botones ul {
-        margin: 8px 10px;
+        margin: 0px;
         padding-left: 0px;
         height: 40px;
+        padding-bottom: 3px;
+        padding-top: 3px;
     }
     .botones .boton-menu {
         padding: 1px;
         font-size: 10px;
-        margin: 2px 5px;
+        margin: 2px 0px;
         width: 80px;
+    }
+
+    /* FOOTER */
+    footer {
+        padding: 0px;
+    }
+    .redes-sociales li {
+        padding: 0px 5px;
+    }
+
+    /* HOME MEDIA QUERY */
+    .resaltado-home h2 {
+        font-size: 10px;
+    }
+    .tienda-home .articulo-home {
+        display: inline-block;
+        margin: 20px 10px 0px 10px;
+    }
+    .articulo-home img{
+        height: 236px;
+        width: 177px;
+    }
+    .articulo-home h3 {
+        font-size: 10px;
+    }
+    .comunidad-home h3,
+    .planeta-home h3{
+        margin-top: 50PX;
+        font-size: 10px;
+    }
+    .comunidad-home h4,
+    .planeta-home h4 {
+        font-size: 9px;
+    }
+    .contenido-home br {
+        display: block;
+        content: "";
+        margin-top: 5px;
     }
 }
