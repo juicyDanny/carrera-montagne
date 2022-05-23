@@ -127,6 +127,7 @@ footer p {
     margin: 20px 20px 0px 20px;
 }
 .articulo-home .modelo-home{
+    transition: .3s ease;
     height: 300px;
     width: 225px;
     -webkit-transform: scale(1);
