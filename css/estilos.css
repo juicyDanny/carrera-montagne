@@ -249,6 +249,9 @@ footer p {
     .redes-sociales li {
         padding: 0px 5px;
     }
+    footer p {
+        color: #ffffff;
+    }
 
     /* HOME MEDIA QUERY */
     .vitriera-home {
