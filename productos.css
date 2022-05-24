@@ -1,0 +1,101 @@
+/* PRODUCTOS */
+
+html {
+    scroll-behavior: smooth;
+}
+
+.contenedor-productos {
+    background-color: gray;
+}
+
+.vitriera-productos {
+    padding: 0;
+    margin: 0;
+    background-color: #000;
+
+}
+
+.vitriera-productos img {
+    width: 100%;
+}
+
+.contenedor-productos img {
+    vertical-align: top;
+    width: 100%;
+}
+
+.elemento-categoria {
+    background-color: rgb(255, 255, 255);
+}
+
+.contenedor-productos-hombre,
+.contenedor-productos-mujer,
+.contenedor-productos-niños,
+.contenedor-productos-sale {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.resaltado-productos {
+    background-color: #E2001A;
+    color: #ffffff;
+    padding: 5px;
+}
+
+.contenedor-categorias,
+.contenedor-productos-hombre-fila,
+.contenedor-productos-mujer-fila,
+.contenedor-productos-niños-fila,
+.contenedor-productos-sale-fila {
+    align-content: center;
+    display: inline-flex;
+    padding: 0 10px;
+}
+
+.elemento-categoria {
+    min-width: 100px;
+    height: auto;
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+    border: 4px solid #E2001A;
+    border-radius: 5px;
+}
+
+.elemento-categoria img {
+    width: 100%;
+    padding-bottom: 5px;
+}
+
+.categoria-resaltada {
+    background-color: white;
+}
+
+h3 a {
+    color: #E2001A;
+}
+
+/* MEDIA QUERY */
+@media (max-width: 768px) {
+    
+    /* PRODUCTOS MEDIA QUERY*/
+    .contenedor-productos img {
+        vertical-align: top;
+        width: 100%;
+    }
+
+    .contenedor-categorias,
+    .contenedor-productos,
+    .contenedor-productos-hombre-fila,
+    .contenedor-productos-mujer-fila,
+    .contenedor-productos-niños-fila,
+    .contenedor-productos-sale-fila {
+        display: inline-block;
+        padding: 0 10px;
+    }
+
+    .elemento-categoria img {
+        padding-bottom: 5px;
+    }
+}
