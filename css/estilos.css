@@ -134,7 +134,7 @@ footer p {
     -ms-transform: scale(1);
     transform: scale(1);
     overflow: hidden;
-    opacity: 0.9;
+
 }
 .articulo-home .caja-home {
     height: 300px;
@@ -147,7 +147,7 @@ footer p {
     position: absolute;
     opacity: 0;
     transition: .3s ease;
-    height: 80px;
+    height: 50px;
     z-index: 1;
 }
 .esquina-inferior-home {
@@ -202,7 +202,78 @@ footer p {
     color: #000000;
 }
 
-/* MARATON DE FEDE */
+/* CONTACTO */
+.separador-contacto {
+    background-color: red;
+    height: 1px;
+}
+.contenedor-contacto-imagen img {
+    background-color: white;
+    height: auto;
+    width: 100%;
+}
+.contenedor-contacto-imagen {
+    background-color: white;
+    margin: 10px 0px;
+}
+.imagenes-contacto{
+    background-color: black;
+    width: 100%;
+}
+.primera-imagen-contacto {
+    display: inline-block;
+    margin: 30px;
+}
+.primera-imagen-contacto img{
+    background-color: black;
+    height: 206px;
+    width: 500px;
+    margin: 0px;
+}
+.primera-imagen-contacto h3{
+    text-align: center;
+    color: white;
+}
+
+/* PLANETA */
+.principal-planeta {
+    background-color: #E2001A;
+    padding: 1px;
+}
+.titulo-planeta {
+    color: #ffffff;
+}
+.contenedor-planeta {
+    background-color: #000000;
+    color: #ffffff;
+}
+.contenedor-planeta h3 {
+    margin: 0%;
+    padding: 30px 5px;
+}
+.contenedor-planeta h4 {
+    margin: 0%;
+    padding: 20px 5px;
+}
+.link-planeta {
+    color: #ffffff;
+}
+.link-planeta:hover {
+    color: #E2001A;
+}
+.vitriera-planeta {
+    max-width: 100%;
+    width: 100%;
+    height: 300px;
+    background-image: url(../img/planeta1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.separador-planeta {
+    background-color: red;
+    height: 3px;
+}
 
 /* MEDIA QUERY */
 @media (max-width: 768px) {
@@ -291,5 +362,21 @@ footer p {
     }
     .articulo-home .caja-home {
         height: 236px;
+    }
+
+    /* CONTACTO MEDIA QUERY */
+    .primera-imagen-contacto img{
+        height: 138px;
+        width: 337px;
+    }
+
+    /* PLANETA MEDIA QUERY */
+    .contenedor-planeta h3 {
+        padding: 10px;
+        font-size: 20px;
+    }
+    .contenedor-planeta h4 {
+        font-size: 15px;
+        padding: 20px 10px;
     }
 }
