@@ -440,45 +440,212 @@ html {
 /* PREMIOS */
 
 .imagen-chalten img{
-    height: 100%;
+    height: auto;
     width: 100%;
+    max-width: 1920px;
 }
 .imagen-chalten .premio-viaje{
-    position: absolute;
+    position: center;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
 }
 
 .premios{
     background-image: url(../img/fondo-oscuro-premios.png);
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 .premios .premios2y3{
-    display: inline-block;
+    display: inline-flex;
     margin: 20px 70px 0px 70px;
     color: #ffffff;
 }
 
 .premios2y3 .caja-premios{
     background-image: url(../img/rectangulo-opaco.png);
-    background-size: 370px 500px;
+    background-size: 270px 320px;
 }
 
 .premios2y3 .modelo-premios{
-    height: 470px;
-    width: 370px;
+    height: 317px;
+    width: 270px;
 }
 
 .premios2y3 .color-texto-premios{
     color: #ffffff;
+    font-size: 10px;
 }
 
 .sorteo-premios img{
-    height: 100%;
+    height: auto;
     width: 100%;
+    max-width: 1920px;
+}
+
+/*COMUNIDAD MONTAGNE*/
+
+.boton-mas-info h4 {
+    color: #000000;
+    display: inline-block;
+    border: solid;
+    border-color: #000000;
+    border-width: 2px;
+    margin: 10px 10px 80px 10px;
+    padding: 7PX;
+    border-radius: 5px;
+}
+.boton-mas-info h4:hover {
+    background-color: #E2001A;
+    color: #FFFFFF;
+}
+.caratula-comunidad {
+    height: 380px;
+}
+.caratula-comunidad img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    object-position: bottom;
+}
+.montagne {
+    color: #E2001A;
+}
+.texto-inspiracion-comunidad {
+    text-align: center;
+    margin-top: 80px;
+}
+.triptico-comunidad {
+    background-color: #000000;
+    color: #ffffff;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+}
+.contenedor-actividad {
+    display: inline-block;
+    width: 400px;
+    height: 500px;
+    margin-top: 10px;
+    padding: 10px 10px;
+}
+.contenedor-actividad img {
+    width: 250px;
+    height: 400px;
+    border-radius: 5%;
+    object-fit: cover;
+    background-color: #FFFFFF;
+    position: relative;
+}
+.contenedor-actividad:hover img {
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+    transition: .3s ease;
+    opacity: 1;
+}
+.beneficios-triptico {
+    display: inline-flex;
+    color: #000000;
+    align-items: center;
+}
+.beneficios {
+    width: 300px;
+    height: 200px;
+    margin-top: 0px;
+    padding: 10px 10px;
+    background-color: #FFFFFF;
+    object-fit: contain;
+}
+.beneficios img {
+    width: 300px;
+    height: 200px;
+    background-color: #FFFFFF;
+}
+.beneficios-left {
+    text-align: left;
+    padding-left: 100px;
+    padding-right: 50px;
+}
+.beneficios-right {
+    text-align: right;
+    padding-right: 100px;
+    padding-left: 50px;
+}
+.beneficios-right p,
+.beneficios-left p {
+    font-size: 10px;
+}
+
+/* MARATON */
+#body-maraton{
+    margin: 0;
+    padding: 0;
+    display: grid;
+    min-height: 100vh;
+}
+.header-maraton{
+    border-bottom: #e02932 6px solid;
+    padding: 20px;
+    text-align: center;
+    font-size: 50px;
+    background-color: rgb(31, 17, 17);
+    color: aliceblue;
+}
+.columnas-maraton .caja-maraton {
+    display: inline-block;
+    min-height: auto;
+}
+#columna-maraton-1 {
+    margin: 0px;
+    padding: 0px;
+    width: 42%;
+    float: left;
+    padding: 0px 15px;
+    text-align: center;
+    height: 900px;
+    font-size: 32px;
+    background-color: rgb(194, 10, 10);
+    color: aliceblue;
+    border-right: black 2px solid;
+    min-height: 978px;
+}
+.info i{
+    padding: 30px;
+    font-size: 50px;
+}
+.link-maraton i{
+    color: rgb(6, 6, 12);
+    font-size: 150px;
+}
+.link-maraton i:hover{
+    color: azure;
+}
+#columna-maraton-2 {
+    margin: 0px;
+    padding: 0px;
+    width: 55%;
+    float: right;
+}
+#columna-maraton-2 img{
+    width: max-content;
+    width: 600px;
+    height: 900px;
+}
+#footer-maraton{
+    background-color: blanchedalmond;
+    width: 100%;
+    margin-top: -5px;
+    text-align: center;
+    color: aliceblue;
+    background-color: rgb(17, 10, 10);
+    border-top: #e02932 6px solid ;
+    border-bottom: #e02932 6px solid;
+}
+.footer-maraton h2{
+    font-weight: bolder;
+    font-size: 40px;
 }
 
 /* MEDIA QUERY */
@@ -603,8 +770,50 @@ html {
         font-size: 15px;
         padding: 20px 10px;
     }
-}
 
+    /* PREMIOS MEDIA QUERY */
+    .premios .premios2y3{
+        margin: 20px 20px 0px 20px;
+    }
+
+    /* MARATON */
+    #body-maraton{
+        display: grid;
+    }
+    .header-maraton{
+        font-size: 30px;
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    #columnas-maraton h2{
+        float: none;
+        width: 100%;
+        text-align: center;
+        font-size: 21px;
+    }
+    #columnas-maraton #columna-maraton-1,
+    #columnas-maraton #columna-maraton-2{
+        float: none;
+        max-width: 100%;
+        text-align: center;
+        font-size: 40px;
+    }
+    .footer-maraton{
+        text-align: center;
+        font-size: 23px;
+    }
+    #columna-maraton-1 {
+        width: 100%;
+        min-height: 800px;
+    }
+    #columna-maraton-1 .info {
+        font-size: 23px;
+    }
+    #columna-maraton-2 img {
+        width: 400px;
+    }
+}
 
 /* PRODUCTOS MEDIA QUERY*/
 @media (max-width: 1280px) {
@@ -622,118 +831,6 @@ html {
         display: inline-block;
         padding: 0 10px;
     }
-}
-
-
-/*COMUNIDAD MONTAGNE*/
-.boton-mas-info h4 {
-    color: #000000;
-    display: inline-block;
-    border: solid;
-    border-color: #000000;
-    border-width: 2px;
-    margin: 10px 10px 80px 10px;
-    padding: 7PX;
-    border-radius: 5px;
-}
-
-.boton-mas-info h4:hover {
-    background-color: #E2001A;
-    color: #FFFFFF;
-}
-
-.caratula-comunidad {
-    height: 380px;
-}
-
-.caratula-comunidad img {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-    object-position: bottom;
-}
-
-.montagne {
-    color: #E2001A;
-}
-
-.texto-inspiracion-comunidad {
-    text-align: center;
-    margin-top: 80px;
-}
-
-.triptico-comunidad {
-    background-color: #000000;
-    color: #ffffff;
-    align-items: center;
-    width: 100%;
-    margin: 0 auto;
-}
-
-.contenedor-actividad {
-    display: inline-block;
-    width: 400px;
-    height: 500px;
-    margin-top: 10px;
-    padding: 10px 10px;
-}
-
-.contenedor-actividad img {
-    width: 250px;
-    height: 400px;
-    border-radius: 5%;
-    object-fit: cover;
-    background-color: #FFFFFF;
-    position: relative;
-}
-
-.contenedor-actividad:hover img {
-    -webkit-transform: scale(1.05);
-    -ms-transform: scale(1.05);
-    transform: scale(1.05);
-    transition: .3s ease;
-    opacity: 1;
-}
-
-
-
-.beneficios-triptico {
-    display: inline-flex;
-    color: #000000;
-    align-items: center;
-}
-
-.beneficios {
-    width: 300px;
-    height: 200px;
-    margin-top: 0px;
-    padding: 10px 10px;
-    background-color: #FFFFFF;
-    object-fit: contain;
-}
-
-.beneficios img {
-    width: 300px;
-    height: 200px;
-    background-color: #FFFFFF;
-}
-
-.beneficios-left {
-    text-align: left;
-    padding-left: 100px;
-    padding-right: 50px;
-}
-
-.beneficios-right {
-    text-align: right;
-    padding-right: 100px;
-    padding-left: 50px;
-
-}
-
-.beneficios-right p,
-.beneficios-left p {
-    font-size: 10px;
 }
 
 /*Barra de navegacion responsive
@@ -787,8 +884,8 @@ nav ul li a {
     text-transform: uppercase;
 }
 
-li a.actual,
-li a:hover {
+.boton-menu a.actual,
+.boton-menu a:hover {
     background-color: #E2001A;
     transition: .5s;
 }
@@ -829,7 +926,7 @@ section {
         display: block;
     }
 
-    ul {
+    .lista-navbar {
         z-index: 50;
         position: fixed;
         width: 100%;
@@ -841,18 +938,18 @@ section {
         transition: all .5s;
     }
 
-    nav ul li {
+    nav .lista-navbar li {
         display: block;
         margin: 50px 0;
         line-height: 30px;
     }
 
-    nav ul li a {
+    nav .lista-navbar li a {
         font-size: 20px;
     }
 
-    li a:hover,
-    li a.active {
+    .boton-menu a:hover,
+    .boton-menu a.active {
         background: black;
         color: rgb(255, 255, 255);
     }
