@@ -585,6 +585,9 @@ footer p {
         padding-right: 50px;
         padding-left: 50px;
     }
+    .contenedor-actividad{
+        padding: 5px;
+    }
 }
 
 /* PRODUCTOS MEDIA QUERY*/
