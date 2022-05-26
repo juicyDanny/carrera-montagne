@@ -12,28 +12,31 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Graduate&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
     <title>Comunidad Montagne</title>
 </head>
+
 <body>
     <div class="contenedor-home">
-        <header>
-            <div>
-                <nav>
-                    <div class="boton-home">
-                        <a href="/index.html"><img src="img/montagne.svg" alt="Logo de Montagne"></a>
-                    </div>
-                    <div class="botones">
-                        <ul>
-                            <li class="boton-menu"><a href="productos.html">PRODUCTOS</a></li>
-                            <li class="boton-menu"><a href="carrera-montagne.html">MARATON</a></li>
-                            <li class="boton-menu"><a href="planeta.html">PLANETA</a></li>
-                            <li class="boton-menu"><a href="">NOSOTROS</a></li>
-                            <li class="boton-menu"><a href="contacto.html">CONTACTO</a></li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
-        </header>
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <a href="index.html" class="enlace">
+                <img src="img/montagne.svg" alt="" class="logoo">
+            </a>
+            <ul>
+                <li class="boton-menu"><a href="productos.html">PRODUCTOS</a></li>
+                <li class="boton-menu"><a href="carrera-montagne.html">MARATON</a></li>
+                <li class="boton-menu"><a href="planeta.html">PLANETA</a></li>
+                <li class="boton-menu"><a href="">NOSOTROS</a></li>
+                <li class="boton-menu"><a href="contacto.html">CONTACTO</a></li>
+            </ul>
+        </nav>
+
+        <!-- +++++++++++++++++ ACA ARRANCA TODO LO QUE HICE YO +++++++++++++++++ -->
+
         <div class="contenido-comunidad">
             <div class="caratula-comunidad">
                 <img src="img/banner-comunidad.jpg" alt="Dos personas en la montaña usando la ropa de montagne">
@@ -58,7 +61,9 @@
                     </p>
                 </div>
                 <div class="boton-mas-info">
-                    <a href="#beneficios"><h4>MAS INFORMACIÓN</h4></a>
+                    <a href="#beneficios">
+                        <h4>MAS INFORMACIÓN</h4>
+                    </a>
                 </div>
             </div>
             <div class="triptico-comunidad">
@@ -75,7 +80,7 @@
                     <h4>Actividades de Camping</h4>
                 </div>
             </div>
-        
+
             <div id="beneficios" class="beneficios-titulo">
                 <h2>BENEFICIOS DE LA COMUNIDAD <span class="montagne">MONTAGNE:</span></h2>
             </div>
@@ -88,7 +93,7 @@
                     <div class="info-beneficio">
                         <h3>¡25% OFF EN TU DIA!</h3>
                         <p>Montagne celebra tu día con vos y te regala un 25% de descuento.</p>
-                    </div>     
+                    </div>
                 </div>
                 <div class="beneficios">
                     <img src="img/tarjeta-comunidad.png" alt="Tarjeta de la comunidad Montagne">
@@ -101,10 +106,14 @@
                     <div class="info-beneficio">
                         <h3>EXCURSIONES Y VIAJES</h3>
                         <p>Acceso a descuentos exclusivos para que viajes una vez por año.</p>
-                    </div>     
+                    </div>
                 </div>
             </div>
         </div>
+
+        <!-- +++++++++++++++++ ACA TERMINA TODO LO QUE HICE YO +++++++++++++++++ -->
+
+
         <footer>
             <div class="redes-sociales">
                 <ul>
@@ -138,4 +147,5 @@
         </footer>
     </div>
 </body>
+
 </html>

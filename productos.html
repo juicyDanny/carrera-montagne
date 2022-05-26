@@ -12,26 +12,28 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Graduate&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
     <title>Productos</title>
 </head>
+
 <body>
     <div class="contenedor">
-        <header>
-            <nav>
-                <div class="boton-home">
-                    <a href="/index.html"><img src="img/montagne.svg" alt="Logo de Montagne"></a>
-                </div>
-                <div class="botones">
-                    <ul>
-                        <li class="boton-menu"><a href="productos.html">PRODUCTOS</a></li>
-                        <li class="boton-menu"><a href="carrera-montagne.html">MARATON</a></li>
-                        <li class="boton-menu"><a href="planeta.html">PLANETA</a></li>
-                        <li class="boton-menu"><a href="">NOSOTROS</a></li>
-                        <li class="boton-menu"><a href="contacto.html">CONTACTO</a></li>
-                    </ul>
-                </div>
-            </nav>
-        </header>
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <a href="index.html" class="enlace">
+                <img src="img/montagne.svg" alt="" class="logoo">
+            </a>
+            <ul>
+                <li class="boton-menu"><a href="productos.html">PRODUCTOS</a></li>
+                <li class="boton-menu"><a href="carrera-montagne.html">MARATON</a></li>
+                <li class="boton-menu"><a href="planeta.html">PLANETA</a></li>
+                <li class="boton-menu"><a href="">NOSOTROS</a></li>
+                <li class="boton-menu"><a href="contacto.html">CONTACTO</a></li>
+            </ul>
+        </nav>
         <div class="resaltado-productos">
             <h2>NUESTROS CATALOGO</h2>
         </div>
@@ -221,7 +223,7 @@
                 </div>
             </div>
         </div>
-        <h3 class="categoria-resaltada"><a class="volver" href="#categorias">volver a categorias</a></h3>
+        <h3 class="categoria-resaltada volver"><a  href="#categorias">volver a categorias</a></h3>
         <footer>
             <div class="redes-sociales">
                 <ul>
