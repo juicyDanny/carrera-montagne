@@ -111,6 +111,10 @@ footer p {
 .resaltado-home h2 {
     margin: 0px;
 }
+.resaltado-home strong{
+    text-decoration: underline #ffffff;
+    color: #ffffff;
+}
 
 .vitriera-home.boton-home,
 .vitriera-home img {
