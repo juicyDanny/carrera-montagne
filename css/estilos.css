@@ -271,7 +271,12 @@ footer p {
     text-align: center;
     color: white;
 }
-
+.link-contacto {
+    color: #ffffff;
+    }
+    .link-contacto:hover {
+    color: #E2001A;
+    }
 
 /* PLANETA */
 .principal-planeta {
@@ -563,8 +568,8 @@ html {
     object-fit: contain;
 }
 .beneficios img {
-    width: 300px;
-    height: 200px;
+    width: 250px;
+    height: 150px;
     background-color: #FFFFFF;
 }
 .beneficios-left {
