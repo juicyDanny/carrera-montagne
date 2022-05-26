@@ -813,6 +813,27 @@ html {
     #columna-maraton-2 img {
         width: 400px;
     }
+
+        /* COMUNIDAD */
+        .beneficios-triptico,
+        .beneficios-left,
+        .beneficios,
+        .beneficios-right,
+        .beneficios img {
+            display: inline-block;
+        }
+        .texto-inspiracion-comunidad{
+            margin: 80px 40px 0px 40px;
+        }
+        .beneficios-right,
+        .beneficios-left {
+            text-align: center;
+            padding-right: 50px;
+            padding-left: 50px;
+        }
+        .contenedor-actividad{
+            padding: 5px;
+        }
 }
 
 /* PRODUCTOS MEDIA QUERY*/
@@ -855,14 +876,13 @@ nav {
     background-position-x: right;
     background-image: url(../img/fondo-detalles.png);
     position: absolute;
-    padding: 20px 50px;
+    padding: 16px 50px;
 }
 
 .logoo {
     text-align: left;
     padding-right: 50px;
-    height: 40px;
-
+    height: 50px;
 }
 
 nav ul {
@@ -924,6 +944,7 @@ section {
 @media (max-width: 858px) {
     .checkbtn {
         display: block;
+        margin-top: 2.5px;
     }
 
     .lista-navbar {
