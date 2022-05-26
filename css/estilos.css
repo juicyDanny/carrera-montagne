@@ -144,7 +144,6 @@ footer p {
     position: relative;
     overflow: hidden;
 }
-
 .esquina-inferior-home,
 .esquina-superior-home {
     position: absolute;
@@ -281,6 +280,190 @@ footer p {
     height: 3px;
 }
 
+/* PRODUCTOS */
+
+.catalogo {
+    margin: auto;
+    margin-top: 50px;
+    max-width: 60%;
+    background-color: #000;
+    -webkit-box-shadow: -1px 1px 5px 9px rgba(150, 150, 150, 0.50);
+    -moz-box-shadow: -1px 1px 5px 9px rgba(150, 150, 150, 0.50);
+    box-shadow: -1px 1px 5px 9px rgba(150, 150, 150, 0.50);
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-width: 5px;
+}
+.contenedor-productos {
+    background-color: gray;
+}
+.vitriera-productos {
+    padding: 0;
+    margin: 0;
+    background-color: #000;
+
+}
+.vitriera-productos img {
+    width: 100%;
+}
+.contenedor-productos img {
+    vertical-align: top;
+    width: 100%;
+}
+.elemento-categoria {
+    background-color: rgb(255, 255, 255);
+}
+.contenedor-productos-hombre,
+.contenedor-productos-mujer,
+.contenedor-productos-niños,
+.contenedor-productos-sale {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.resaltado-productos {
+    background-color: #E2001A;
+    color: #ffffff;
+    text-decoration: underline;
+    text-decoration-color: black;
+    padding: 5px;
+}
+.contenedor-categorias,
+.contenedor-productos-hombre-fila,
+.contenedor-productos-mujer-fila,
+.contenedor-productos-niños-fila,
+.contenedor-productos-sale-fila {
+    position: relative;
+    align-content: center;
+    display: inline-flex;
+    margin: 0px 5px;
+}
+.elemento-categoria {
+    min-width: 100px;
+    height: auto;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    border: 4px solid #E2001A;
+    border-radius: 5px;
+}
+.elemento-categoria img {
+    width: 100%;
+    padding-bottom: 5px;
+}
+.categoria-resaltada {
+    background-color: white;
+}
+.volver, .catalogo h3 a {
+    transition: 0.3s;
+    padding: 5px;
+    background-color: white;
+    border: 2px solid #E2001A;
+    border-radius: 5px;
+    color: #000000;
+}
+.volver:hover,.catalogo h3 a:hover {
+    transition: 0.3s;
+    padding: 5px;
+    background-color: #E2001A;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+/* COMUNIDAD */
+.boton-mas-info h4{
+    color: #000000;
+    display: inline-block;
+    border: solid;
+    border-color: #000000;
+    border-width: 2px;
+    margin: 10px 10px 80px 10px;
+    padding: 7PX;
+    border-radius: 5px;
+}
+.boton-mas-info h4:hover {
+    background-color: #E2001A;
+    color: #FFFFFF;
+}
+.caratula-comunidad {
+    height: 380px;
+}
+.caratula-comunidad img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    object-position: bottom;
+}
+.montagne {
+    color: #E2001A;
+}
+.texto-inspiracion-comunidad {
+    text-align: center;
+    margin-top: 80px;
+}
+.triptico-comunidad{
+    background-color: #000000;
+    color: #ffffff;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+}
+.contenedor-actividad {
+    display: inline-block;
+    width: 400px;
+    height: 500px;
+    margin-top: 10px;
+    padding: 10px 10px;
+}
+.contenedor-actividad img {
+    width: 250px;
+    height: 400px;
+    border-radius: 5%;
+    object-fit: cover;
+    background-color: #FFFFFF;
+    position: relative;
+}
+.contenedor-actividad:hover img {
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+    transition: .3s ease;
+    opacity: 1;
+}
+.beneficios-triptico {
+    display: inline-flex;
+    color: #000000;
+    align-items: center;
+}
+.beneficios {
+    width: 300px;
+    height: 200px;
+    margin-top: 0px;
+    padding: 10px 10px;
+    background-color: #FFFFFF;
+    object-fit: contain;
+}
+.beneficios img {
+    width: 300px;
+    height: 200px;
+    background-color: #FFFFFF;
+}
+.beneficios-left {
+    text-align: left;
+    padding-left: 100px;
+    padding-right: 50px;
+}
+.beneficios-right {
+    text-align: right;
+    padding-right: 100px;
+    padding-left: 50px;
+}
+.beneficios-right p,
+.beneficios-left p {
+    font-size: 10px;
+}
+
 /* MEDIA QUERY */
 @media (max-width: 768px) {
     body{
@@ -385,154 +568,23 @@ footer p {
         font-size: 15px;
         padding: 20px 10px;
     }
-}
-
-/* PLANETA */
-.principal-planeta {
-    background-color: #E2001A;
-    padding: 1px;
-}
-.titulo-planeta {
-    color: #ffffff;
-}
-.contenedor-planeta {
-    background-color: #000000;
-    color: #ffffff;
-    align-items: center;
-}
-.contenedor-planeta h3 {
-    margin: auto;
-    padding: 30px 5px;
-    width: 80%;
-}
-.contenedor-planeta h4 {
-    margin: auto;
-    padding: 20px 5px;
-    width: 80%;
-}
-.link-planeta {
-    color: #ffffff;
-}
-.link-planeta:hover {
-    color: #E2001A;
-}
-.vitriera-planeta {
-    max-width: 100%;
-    width: 100%;
-    height: 300px;
-    background-image: url(../img/planeta1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-.separador-planeta {
-    background-color: #E2001A;
-    height: 3px;
-}
-
-/* PRODUCTOS */
-
-html {
-    scroll-behavior: smooth;
-}
-
-.catalogo {
-    margin: auto;
-    margin-top: 50px;
-    max-width: 60%;
-    background-color: #000;
-    -webkit-box-shadow: -1px 1px 5px 9px rgba(150, 150, 150, 0.50);
-    -moz-box-shadow: -1px 1px 5px 9px rgba(150, 150, 150, 0.50);
-    box-shadow: -1px 1px 5px 9px rgba(150, 150, 150, 0.50);
-    border-style: solid;
-    border-color: rgb(255, 255, 255);
-    border-width: 5px;
-}
-.contenedor-productos {
-    background-color: gray;
-}
-
-.vitriera-productos {
-    padding: 0;
-    margin: 0;
-    background-color: #000;
-
-}
-
-.vitriera-productos img {
-    width: 100%;
-}
-
-.contenedor-productos img {
-    vertical-align: top;
-    width: 100%;
-}
-
-.elemento-categoria {
-    background-color: rgb(255, 255, 255);
-}
-
-.contenedor-productos-hombre,
-.contenedor-productos-mujer,
-.contenedor-productos-niños,
-.contenedor-productos-sale {
-    padding: 0;
-    margin: 0;
-    text-align: center;
-}
-.resaltado-productos {
-    background-color: #E2001A;
-    color: #ffffff;
-    text-decoration: underline;
-    text-decoration-color: black;
-    padding: 5px;
-}
-
-.contenedor-categorias,
-.contenedor-productos-hombre-fila,
-.contenedor-productos-mujer-fila,
-.contenedor-productos-niños-fila,
-.contenedor-productos-sale-fila {
-    position: relative;
-    align-content: center;
-    display: inline-flex;
-    margin: 0px 5px;
-}
-
-.elemento-categoria {
-    min-width: 100px;
-    height: auto;
-    text-align: center;
-    padding: 5px;
-    margin: 5px;
-    border: 4px solid #E2001A;
-    border-radius: 5px;
-}
-
-.elemento-categoria img {
-    width: 100%;
-    padding-bottom: 5px;
-}
-
-.categoria-resaltada {
-    background-color: white;
-}
-
-.volver, .catalogo h3 a {
-    transition: 0.3s;
-    padding: 5px;
-    background-color: white;
-    border: 2px solid #E2001A;
-    border-radius: 5px;
-    color: #000000;
-}
-.volver:hover,.catalogo h3 a:hover {
-    transition: 0.3s;
-    padding: 5px;
-    background-color: #E2001A;
-    border: 2px solid #000000;
-    border-radius: 5px;
-    color: #ffffff;
+    /* COMUNIDAD */
+    .beneficios-triptico,
+    .beneficios-left,
+    .beneficios,
+    .beneficios-right,
+    .beneficios img {
+        display: inline-block;
+    }
+    .texto-inspiracion-comunidad{
+        margin: 80px 40px 0px 40px;
+    }
+    .beneficios-right,
+    .beneficios-left {
+        text-align: center;
+        padding-right: 50px;
+        padding-left: 50px;
+    }
 }
 
 /* PRODUCTOS MEDIA QUERY*/
