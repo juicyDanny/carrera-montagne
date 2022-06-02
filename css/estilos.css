@@ -650,13 +650,14 @@ html {
     background-color: blanchedalmond;
     width: 100%;
     margin-top: -5px;
+    padding: 50px 35%;    
     text-align: center;
     color: aliceblue;
     background-color: rgb(17, 10, 10);
     border-top: #e02932 6px solid ;
     border-bottom: #e02932 6px solid;
 }
-.footer-maraton h2{
+.footer-maraton p{
     font-weight: bolder;
     font-size: 40px;
 }
@@ -707,8 +708,7 @@ html {
 
     /* FOOTER */
     footer {
-        
-        padding:none;
+        padding: 0px;
     }
 
     .redes-sociales li {
@@ -816,9 +816,10 @@ html {
         text-align: center;
         font-size: 40px;
     }
-    .footer-maraton{
+    #footer-maraton{
+        padding: 50px 5%;
         text-align: center;
-        font-size: 23px;
+        font-size: 18px;
     }
     #columna-maraton-1 {
         width: 100%;
