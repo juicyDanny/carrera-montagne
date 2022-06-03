@@ -301,7 +301,7 @@ footer p {
 .contenedor-planeta h3 {
     margin: auto;
     padding: 30px 5px;
-    width: 80%;
+    width: 45%;
 }
 
 .contenedor-planeta h4 {
@@ -781,6 +781,7 @@ html {
     .contenedor-planeta h3 {
         padding: 10px;
         font-size: 20px;
+        width: 80%;
     }
 
     .contenedor-planeta h4 {
@@ -819,7 +820,7 @@ html {
     #footer-maraton{
         padding: 50px 5%;
         text-align: center;
-        font-size: 18px;
+        font-size: 18   px;
     }
     #columna-maraton-1 {
         width: 100%;
