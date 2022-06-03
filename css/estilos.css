@@ -347,7 +347,7 @@ html {
 
 .catalogo {
     margin: auto;
-    margin-top: 50px;
+    margin-top: 80px;
     max-width: 60%;
     background-color: #000;
     -webkit-box-shadow: -1px 1px 5px 9px rgba(150, 150, 150, 0.50);
@@ -877,6 +877,9 @@ padding-top: 15px;
 
 /* PRODUCTOS MEDIA QUERY*/
 @media (max-width: 1280px) {
+    .catalogo{
+        margin-top: 60px;
+    }
     .contenedor-productos img {
         vertical-align: top;
         width: 100%;
