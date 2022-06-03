@@ -539,7 +539,6 @@ html {
 }
 .contenedor-actividad {
     display: inline-block;
-    width: 400px;
     height: 500px;
     margin-top: 10px;
     padding: 10px 10px;
@@ -591,7 +590,12 @@ html {
 .beneficios-left p {
     font-size: 10px;
 }
-
+.contenido-comunidad{
+    width: 100%;
+}
+.triptico-comunidad h4{
+padding-top: 15px;
+}
 /* MARATON */
 #body-maraton{
     margin: 0;
@@ -831,6 +835,7 @@ html {
     }
 
         /* COMUNIDAD */
+        
         .beneficios-triptico,
         .beneficios-left,
         .beneficios,
