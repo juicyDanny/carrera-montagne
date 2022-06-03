@@ -30,6 +30,24 @@ header {
     margin: auto;
     background-color: #ffffff;
 }
+.face:hover{
+
+}
+.you:hover{
+    filter: invert(0.4) sepia(0.5) saturate(10.7) hue-rotate(302.4deg) brightness(0.5);
+}
+.lin:hover{
+    filter: invert(0.16) sepia(0.5) saturate(20) hue-rotate(180deg) brightness(0.54);
+}
+.ins:hover{
+    filter: invert(0.16) sepia(0.5) saturate(20) hue-rotate(266.4deg) brightness(0.72);
+}
+.twi:hover{
+    filter: invert(0.16) sepia(0.5) saturate(20) hue-rotate(151.2deg) brightness(0.72);
+}
+.face:hover{
+    filter: invert(0.16) sepia(0.5) saturate(20) hue-rotate(172.8deg) brightness(0.56);
+}
 
 /* HEADER */
 .boton-home {
