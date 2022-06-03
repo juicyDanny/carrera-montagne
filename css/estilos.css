@@ -108,6 +108,9 @@ footer p {
 
 
 /* HOME */
+.contenido-home{
+    padding-top:50px;
+}
 .resaltado-home {
     background-color: #E2001A;
     color: #ffffff;
@@ -130,12 +133,10 @@ footer p {
 }
 
 .vitriera-home {
-    height: 379.8px;
+    width: 100%;
+    height: auto;
 }
-
 .vitriera-home img {
-    padding-top: 20px;
-    height: 100%;
     width: 100%;
 }
 
@@ -459,6 +460,7 @@ html {
 /* PREMIOS */
 
 .imagen-chalten img{
+    padding-top: 95px;
     height: auto;
     width: 100%;
     max-width: 1920px;
@@ -715,6 +717,7 @@ padding-top: 15px;
         font-size: 10px;
         border-width: 1px;
     }
+    
 
     /* FOOTER */
     footer {
@@ -730,7 +733,7 @@ padding-top: 15px;
 
     /* HOME MEDIA QUERY */
     .vitriera-home {
-        height: 103px;
+        height: 65px;
     }
 
     .resaltado-home h2 {
@@ -775,6 +778,9 @@ padding-top: 15px;
 
     .articulo-home .caja-home {
         height: 236px;
+    }
+    .vitriera-home{
+        margin-bottom:24px;
     }
 
     /* CONTACTO MEDIA QUERY */
@@ -915,6 +921,9 @@ nav {
     background-color: black;
     height: 85px;
     width: 100%;
+    -webkit-box-shadow: -1px 1px 5px 10px rgb(224, 41, 50);
+    -moz-box-shadow: -1px 1px 5px 10px rgb(224, 41, 50);
+    box-shadow: -1px 1px 5px 10px rgb(224, 41, 50);
 }
 
 .enlace {
