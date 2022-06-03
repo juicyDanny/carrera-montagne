@@ -248,6 +248,7 @@ footer p {
 }
 
 .contenedor-contacto-imagen img {
+    padding-top:35px;
     background-color: white;
     height: auto;
     width: 100%;
@@ -776,9 +777,13 @@ padding-top: 15px;
     }
 
     /* CONTACTO MEDIA QUERY */
+    .contenedor-contacto-imagen{
+        padding-top:35px;
+        padding-bottom:0;
+    }
     .primera-imagen-contacto img {
-        height: 138px;
-        width: 337px;
+        width: 100%;
+        height:auto;
     }
 
     /* PLANETA MEDIA QUERY */
