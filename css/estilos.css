@@ -364,7 +364,11 @@ footer p {
 
 /* PRODUCTOS */
 
-
+.separador-productos{
+    height: 90px;
+    width: 100%;
+    background-color: black;
+}
 .elemento-categoria h3{
     transform: translateY(-10px);
 }
