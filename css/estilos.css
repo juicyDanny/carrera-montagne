@@ -778,10 +778,10 @@ padding-top: 15px;
 
     /* CONTACTO MEDIA QUERY */
     .contenedor-contacto-imagen{
-        padding-top:35px;
         padding-bottom:0;
     }
     .primera-imagen-contacto img {
+        padding-top:25px;
         width: 100%;
         height:auto;
     }
