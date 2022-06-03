@@ -714,7 +714,7 @@ html {
 
     .redes-sociales li {
         padding: 0px 5px;
-    }
+    }   
     .redes-sociales img{
         width:45px;
     }
@@ -881,6 +881,10 @@ Esto mejor dejarlo acá.*/
 }
 
 nav {
+    z-index: 500;
+    position: fixed;
+    top:0;
+    left: 0;
     text-align: left;
     background-color: black;
     height: 85px;
