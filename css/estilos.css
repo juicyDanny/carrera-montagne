@@ -313,8 +313,8 @@ footer p {
 
 /* PLANETA */
 .principal-planeta {
+    padding-top:90px;
     background-color: #E2001A;
-    padding: 1px;
 }
 
 .titulo-planeta {
@@ -347,15 +347,23 @@ footer p {
     color: #E2001A;
 }
 
-.vitriera-planeta {
-    max-width: 100%;
+.vitriera-planeta:hover{
+    transition:1s;
     width: 100%;
-    height: 300px;
+    height: 1000px;
     background-image: url(../img/planeta1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
 }
+.vitriera-planeta{
+    transition:.5s;
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/planeta1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 
 .separador-planeta {
     background-color: #E2001A;
