@@ -644,6 +644,7 @@ footer p {
 }
 
 .contenedor-actividad img {
+    transition: .3s ease;
     width: 250px;
     height: 400px;
     border-radius: 5%;
