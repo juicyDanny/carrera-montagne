@@ -272,7 +272,7 @@ footer p {
 }
 
 .contenedor-contacto-imagen img {
-    padding-top:35px;
+    padding-top:40px;
     background-color: white;
     height: auto;
     width: 100%;
@@ -544,7 +544,9 @@ footer p {
 }
 
 /*COMUNIDAD MONTAGNE*/
-
+.contenido-comunidad{
+    padding-top: 100px;
+}
 .boton-mas-info h4 {
     color: #000000;
     display: inline-block;
