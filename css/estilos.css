@@ -60,7 +60,7 @@ header {
 .twi:hover,
 .face:hover {
 
-    transition: 1s;
+    transition: .9s;
     border-radius: 5px;
     transform: translateY(-10px);
     -webkit-box-shadow: -1px 1px 5px 15px#00000059;
@@ -72,7 +72,7 @@ header {
 .ins,
 .twi,
 .face {
-    transition: 1s;
+    transition: .7s;
     border-radius: 5px;
     -webkit-box-shadow: -1px 1px 5px 15px#ffffff59;
     -moz-box-shadow: -1px 1px 5px 10px #ffffff57;
