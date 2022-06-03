@@ -342,8 +342,9 @@ footer p {
 
 /* PRODUCTOS */
 
-html {
-    scroll-behavior: smooth;
+
+.elemento-categoria h3{
+    transform: translateY(-10px);
 }
 
 .catalogo {
@@ -430,7 +431,6 @@ html {
     background-color: white;
 }
 
-.volver,
 .catalogo h3 a {
     transition: 0.3s;
     padding: 5px;
@@ -441,7 +441,7 @@ html {
     color: #000000;
 }
 
-.volver:hover,
+.volver a:hover,
 .catalogo h3 a:hover {
     transition: 0.3s;
     padding: 5px;
@@ -451,6 +451,10 @@ html {
     color: #ffffff;
 }
 .volver{
+    padding: 20px 0;
+}
+.volver a{
+    width: auto;
     background-color: white;
     border: 2px solid #E2001A;
     border-radius: 5px;
@@ -885,12 +889,13 @@ padding-top: 15px;
 @media (max-width: 1280px) {
     .catalogo{
         margin-top: 60px;
+        max-width: 100%;
     }
     .contenedor-productos img {
         vertical-align: top;
         width: 100%;
     }
-
+    
     .contenedor-categorias,
     .contenedor-productos,
     .contenedor-productos-hombre-fila,
