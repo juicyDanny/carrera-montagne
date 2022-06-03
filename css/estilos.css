@@ -214,6 +214,7 @@ footer p {
 
 .comunidad-home h3,
 .planeta-home h3 {
+    width: 50%;
     color: #ffffff;
     display: inline-block;
     margin-top: 80px;
