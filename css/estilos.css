@@ -21,8 +21,9 @@ body {
     width: 100%;
     grid-template-rows: auto 1fr auto;
 }
+
 header {
-    margin-bottom:50px
+    margin-bottom: 50px
 }
 
 
@@ -30,23 +31,50 @@ header {
     margin: auto;
     background-color: #ffffff;
 }
-.face:hover{
 
-}
-.you:hover{
+.face:hover {}
+
+.you:hover {
     filter: invert(0.4) sepia(0.5) saturate(10.7) hue-rotate(302.4deg) brightness(0.5);
 }
-.lin:hover{
+
+.lin:hover {
     filter: invert(0.16) sepia(0.5) saturate(20) hue-rotate(180deg) brightness(0.54);
 }
-.ins:hover{
+
+.ins:hover {
     filter: invert(0.16) sepia(0.5) saturate(20) hue-rotate(266.4deg) brightness(0.72);
 }
-.twi:hover{
+
+.twi:hover {
     filter: invert(0.16) sepia(0.5) saturate(20) hue-rotate(151.2deg) brightness(0.72);
 }
-.face:hover{
+
+.face:hover {
     filter: invert(0.16) sepia(0.5) saturate(20) hue-rotate(172.8deg) brightness(0.56);
+}
+
+.you:hover,
+.lin:hover,
+.ins:hover,
+.twi:hover,
+.face:hover {
+    transition: 1s;
+    border-radius: 5px;
+    -webkit-box-shadow: -1px 1px 5px 15px#00000059;
+    -moz-box-shadow: -1px 1px 5px 10px #00000057;
+    box-shadow: -1px 1px 5px 5px #0000002d;
+}
+.you,
+.lin,
+.ins,
+.twi,
+.face {
+    transition: 0.3s;
+    border-radius: 5px;
+    -webkit-box-shadow: -1px 1px 5px 15px#ffffff59;
+    -moz-box-shadow: -1px 1px 5px 10px #ffffff57;
+    box-shadow: -1px 1px 5px 5px #ffffff2d;
 }
 
 /* HEADER */
@@ -66,6 +94,7 @@ header {
     text-align: right;
     width: 100%;
 }
+
 .botones ul {
     margin-right: 5px;
 }
@@ -94,8 +123,9 @@ header {
 footer li {
     display: inline-block;
 }
-footer p{
-    transform:translateY(-20px)
+
+footer p {
+    transform: translateY(-20px)
 }
 
 footer {
@@ -107,10 +137,12 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
 }
-.redes-sociales img{
-    width:100px;
+
+.redes-sociales img {
+    width: 100px;
     transform: translateY(25px);
 }
+
 .redes-sociales ul {
     padding: 50px 0px;
     margin: 0px;
@@ -130,9 +162,10 @@ footer p {
 
 
 /* HOME */
-.contenido-home{
-    padding-top:50px;
+.contenido-home {
+    padding-top: 50px;
 }
+
 .resaltado-home {
     background-color: #E2001A;
     color: #ffffff;
@@ -143,7 +176,8 @@ footer p {
 .resaltado-home h2 {
     margin: 0px;
 }
-.resaltado-home strong{
+
+.resaltado-home strong {
     text-decoration: underline #ffffff;
     color: #ffffff;
 }
@@ -158,6 +192,7 @@ footer p {
     width: 100%;
     height: auto;
 }
+
 .vitriera-home img {
     width: 100%;
 }
@@ -272,7 +307,7 @@ footer p {
 }
 
 .contenedor-contacto-imagen img {
-    padding-top:40px;
+    padding-top: 40px;
     background-color: white;
     height: auto;
     width: 100%;
@@ -304,16 +339,18 @@ footer p {
     text-align: center;
     color: white;
 }
+
 .link-contacto {
     color: #ffffff;
-    }
-    .link-contacto:hover {
+}
+
+.link-contacto:hover {
     color: #E2001A;
-    }
+}
 
 /* PLANETA */
 .principal-planeta {
-    padding-top:90px;
+    padding-top: 90px;
     background-color: #E2001A;
 }
 
@@ -347,16 +384,17 @@ footer p {
     color: #E2001A;
 }
 
-.vitriera-planeta:hover{
-    transition:1s;
+.vitriera-planeta:hover {
+    transition: 1s;
     width: 100%;
     height: 1000px;
     background-image: url(../img/planeta1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
-.vitriera-planeta{
-    transition:.5s;
+
+.vitriera-planeta {
+    transition: .5s;
     width: 100%;
     height: 500px;
     background-image: url(../img/planeta1.jpg);
@@ -372,12 +410,13 @@ footer p {
 
 /* PRODUCTOS */
 
-.separador-productos{
+.separador-productos {
     height: 90px;
     width: 100%;
     background-color: black;
 }
-.elemento-categoria h3{
+
+.elemento-categoria h3 {
     transform: translateY(-10px);
 }
 
@@ -484,10 +523,12 @@ footer p {
     border-radius: 5px;
     color: #ffffff;
 }
-.volver{
+
+.volver {
     padding: 20px 0;
 }
-.volver a{
+
+.volver a {
     width: auto;
     background-color: white;
     border: 2px solid #E2001A;
@@ -497,56 +538,58 @@ footer p {
 
 /* PREMIOS */
 
-.imagen-chalten img{
+.imagen-chalten img {
     padding-top: 95px;
     height: auto;
     width: 100%;
     max-width: 1920px;
 }
-.imagen-chalten .premio-viaje{
+
+.imagen-chalten .premio-viaje {
     position: center;
     top: 50%;
     left: 50%;
 }
 
-.premios{
+.premios {
     background-image: url(../img/fondo-oscuro-premios.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-.premios .premios2y3{
+.premios .premios2y3 {
     display: inline-flex;
     margin: 20px 70px 0px 70px;
     color: #ffffff;
 }
 
-.premios2y3 .caja-premios{
+.premios2y3 .caja-premios {
     background-image: url(../img/rectangulo-opaco.png);
     background-size: 270px 320px;
 }
 
-.premios2y3 .modelo-premios{
+.premios2y3 .modelo-premios {
     height: 317px;
     width: 270px;
 }
 
-.premios2y3 .color-texto-premios{
+.premios2y3 .color-texto-premios {
     color: #ffffff;
     font-size: 10px;
 }
 
-.sorteo-premios img{
+.sorteo-premios img {
     height: auto;
     width: 100%;
     max-width: 1920px;
 }
 
 /*COMUNIDAD MONTAGNE*/
-.contenido-comunidad{
+.contenido-comunidad {
     padding-top: 100px;
 }
+
 .boton-mas-info h4 {
     color: #000000;
     display: inline-block;
@@ -557,26 +600,32 @@ footer p {
     padding: 7PX;
     border-radius: 5px;
 }
+
 .boton-mas-info h4:hover {
     background-color: #E2001A;
     color: #FFFFFF;
 }
+
 .caratula-comunidad {
     height: 380px;
 }
+
 .caratula-comunidad img {
     object-fit: cover;
     width: 100%;
     height: 100%;
     object-position: bottom;
 }
+
 .montagne {
     color: #E2001A;
 }
+
 .texto-inspiracion-comunidad {
     text-align: center;
     margin-top: 80px;
 }
+
 .triptico-comunidad {
     background-color: #000000;
     color: #ffffff;
@@ -584,12 +633,14 @@ footer p {
     width: 100%;
     margin: 0 auto;
 }
+
 .contenedor-actividad {
     display: inline-block;
     height: 500px;
     margin-top: 10px;
     padding: 10px 10px;
 }
+
 .contenedor-actividad img {
     width: 250px;
     height: 400px;
@@ -598,6 +649,7 @@ footer p {
     background-color: #FFFFFF;
     position: relative;
 }
+
 .contenedor-actividad:hover img {
     -webkit-transform: scale(1.05);
     -ms-transform: scale(1.05);
@@ -605,11 +657,13 @@ footer p {
     transition: .3s ease;
     opacity: 1;
 }
+
 .beneficios-triptico {
     display: inline-flex;
     color: #000000;
     align-items: center;
 }
+
 .beneficios {
     width: 300px;
     height: 200px;
@@ -618,39 +672,47 @@ footer p {
     background-color: #FFFFFF;
     object-fit: contain;
 }
+
 .beneficios img {
     width: 250px;
     height: 150px;
     background-color: #FFFFFF;
 }
+
 .beneficios-left {
     text-align: left;
     padding-left: 100px;
     padding-right: 50px;
 }
+
 .beneficios-right {
     text-align: right;
     padding-right: 100px;
     padding-left: 50px;
 }
+
 .beneficios-right p,
 .beneficios-left p {
     font-size: 10px;
 }
-.contenido-comunidad{
+
+.contenido-comunidad {
     width: 100%;
 }
-.triptico-comunidad h4{
-padding-top: 15px;
+
+.triptico-comunidad h4 {
+    padding-top: 15px;
 }
+
 /* MARATON */
-#body-maraton{
+#body-maraton {
     margin: 0;
     padding: 0;
     display: grid;
     min-height: 100vh;
 }
-.header-maraton{
+
+.header-maraton {
     border-bottom: #e02932 6px solid;
     padding: 50px;
     padding-top: 70px;
@@ -659,10 +721,12 @@ padding-top: 15px;
     background-color: rgb(31, 17, 17);
     color: aliceblue;
 }
+
 .columnas-maraton .caja-maraton {
     display: inline-block;
     min-height: auto;
 }
+
 #columna-maraton-1 {
     margin: 0px;
     padding: 0px;
@@ -677,39 +741,46 @@ padding-top: 15px;
     border-right: black 2px solid;
     min-height: 978px;
 }
-.info i{
+
+.info i {
     padding: 30px;
     font-size: 50px;
 }
-.link-maraton i{
+
+.link-maraton i {
     color: rgb(6, 6, 12);
     font-size: 150px;
 }
-.link-maraton i:hover{
+
+.link-maraton i:hover {
     color: azure;
 }
+
 #columna-maraton-2 {
     margin: 0px;
     padding: 0px;
     width: 55%;
     float: right;
 }
-#columna-maraton-2 img{
+
+#columna-maraton-2 img {
     width: max-content;
-        height: 900px;
+    height: 900px;
 }
-#footer-maraton{
+
+#footer-maraton {
     background-color: blanchedalmond;
     width: 100%;
     margin-top: -5px;
-    padding: 50px 35%;    
+    padding: 50px 35%;
     text-align: center;
     color: aliceblue;
     background-color: rgb(17, 10, 10);
-    border-top: #e02932 6px solid ;
+    border-top: #e02932 6px solid;
     border-bottom: #e02932 6px solid;
 }
-.footer-maraton p{
+
+.footer-maraton p {
     font-weight: bolder;
     font-size: 40px;
 }
@@ -757,7 +828,7 @@ padding-top: 15px;
         font-size: 10px;
         border-width: 1px;
     }
-    
+
 
     /* FOOTER */
     footer {
@@ -766,9 +837,10 @@ padding-top: 15px;
 
     .redes-sociales li {
         padding: 0px 5px;
-    }   
-    .redes-sociales img{
-        width:45px;
+    }
+
+    .redes-sociales img {
+        width: 45px;
     }
 
     /* HOME MEDIA QUERY */
@@ -819,18 +891,20 @@ padding-top: 15px;
     .articulo-home .caja-home {
         height: 236px;
     }
-    .vitriera-home{
-        margin-bottom:24px;
+
+    .vitriera-home {
+        margin-bottom: 24px;
     }
 
     /* CONTACTO MEDIA QUERY */
-    .contenedor-contacto-imagen{
-        padding-bottom:0;
+    .contenedor-contacto-imagen {
+        padding-bottom: 0;
     }
+
     .primera-imagen-contacto img {
-        padding-top:25px;
+        padding-top: 25px;
         width: 100%;
-        height:auto;
+        height: auto;
     }
 
     /* PLANETA MEDIA QUERY */
@@ -846,15 +920,16 @@ padding-top: 15px;
     }
 
     /* PREMIOS MEDIA QUERY */
-    .premios .premios2y3{
+    .premios .premios2y3 {
         margin: 20px 20px 0px 20px;
     }
 
     /* MARATON */
-    #body-maraton{
+    #body-maraton {
         display: grid;
     }
-    .header-maraton{
+
+    .header-maraton {
         padding: 30px 0px;
         padding-top: 60px;
         font-size: 20px;
@@ -862,76 +937,88 @@ padding-top: 15px;
         width: 100%;
         text-align: center;
     }
-    #columnas-maraton h2{
+
+    #columnas-maraton h2 {
         float: none;
         width: 100%;
         text-align: center;
         font-size: 21px;
     }
+
     #columnas-maraton #columna-maraton-1,
-    #columnas-maraton #columna-maraton-2{
+    #columnas-maraton #columna-maraton-2 {
         float: none;
         max-width: 100%;
         text-align: center;
         font-size: 40px;
     }
-    #footer-maraton{
+
+    #footer-maraton {
         padding: 50px 5%;
         text-align: center;
-        font-size: 18   px;
+        font-size: 18 px;
     }
+
     #columna-maraton-1 {
         width: 100%;
         min-height: 800px;
     }
+
     #columna-maraton-1 .info {
         font-size: 23px;
     }
+
     #columna-maraton-2 img {
         width: 400px;
     }
-    .link-maraton i{
-        font-size:75px;
-    }
-    #columna-maraton-2 img {
-    width:300px;
-    height: auto;
+
+    .link-maraton i {
+        font-size: 75px;
     }
 
-        /* COMUNIDAD */
-        
-        .beneficios-triptico,
-        .beneficios-left,
-        .beneficios,
-        .beneficios-right,
-        .beneficios img {
-            display: inline-block;
-        }
-        .texto-inspiracion-comunidad{
-            margin: 80px 40px 0px 40px;
-        }
-        .beneficios-right,
-        .beneficios-left {
-            text-align: center;
-            padding-right: 50px;
-            padding-left: 50px;
-        }
-        .contenedor-actividad{
-            padding: 5px;
-        }
+    #columna-maraton-2 img {
+        width: 300px;
+        height: auto;
+    }
+
+    /* COMUNIDAD */
+
+    .beneficios-triptico,
+    .beneficios-left,
+    .beneficios,
+    .beneficios-right,
+    .beneficios img {
+        display: inline-block;
+    }
+
+    .texto-inspiracion-comunidad {
+        margin: 80px 40px 0px 40px;
+    }
+
+    .beneficios-right,
+    .beneficios-left {
+        text-align: center;
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+
+    .contenedor-actividad {
+        padding: 5px;
+    }
 }
 
 /* PRODUCTOS MEDIA QUERY*/
 @media (max-width: 1280px) {
-    .catalogo{
+    .catalogo {
         margin-top: 60px;
         max-width: 100%;
     }
+
     .contenedor-productos img {
         vertical-align: top;
         width: 100%;
     }
-    
+
     .contenedor-categorias,
     .contenedor-productos,
     .contenedor-productos-hombre-fila,
@@ -956,7 +1043,7 @@ Esto mejor dejarlo acá.*/
 nav {
     z-index: 500;
     position: fixed;
-    top:0;
+    top: 0;
     left: 0;
     text-align: left;
     background-color: black;
