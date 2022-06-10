@@ -442,6 +442,7 @@ form input,textarea{
     height: 3px;
 }
 
+
 /* PRODUCTOS */
 .nuestro-catalogo{
     margin-top: 85px;
@@ -569,8 +570,58 @@ form input,textarea{
     border: 2px solid #E2001A;
     border-radius: 5px;
     color: #000000;
+    
 }
 
+/*PRELOADER PRODUCTOS*/
+#loader {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+    width: 120px;
+    height: 120px;
+    margin: -76px 0 0 -76px;
+    border: 12px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 12px solid #E2001A;
+    -webkit-animation: spin .25s linear infinite;
+    animation: spin 0.25s linear infinite;
+  }
+  
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  /* Add animation to "page content" */
+  .animate-bottom {
+    position: relative;
+    -webkit-animation-name: animatebottom;
+    -webkit-animation-duration: 1s;
+    animation-name: animatebottom;
+    animation-duration: 1s
+  }
+  
+  @-webkit-keyframes animatebottom {
+    from { bottom:-100px; opacity:0 } 
+    to { bottom:0px; opacity:1 }
+  }
+  
+  @keyframes animatebottom { 
+    from{ bottom:-100px; opacity:0 } 
+    to{ bottom:0; opacity:1 }
+  }
+  
+  #myDiv {
+    display: none;
+    text-align: center;
+  }
 /* PREMIOS */
 
 .imagen-chalten img {
@@ -1061,6 +1112,22 @@ form input,textarea{
         display: inline-block;
         padding: 0 10px;
     }
+    /*PRELOADER*/
+    #loader {
+        position: absolute;
+        left: 54%;
+        top: 50%;
+        z-index: 1;
+        width: 120px;
+        height: 120px;
+        margin: -76px 0 0 -76px;
+        border: 12px solid #f3f3f3;
+        border-radius: 50%;
+        border-top: 12px solid #E2001A;
+        -webkit-animation: spin .25s linear infinite;
+        animation: spin 0.25s linear infinite;
+      }
+      
 }
 
 /*Barra de navegacion responsive
@@ -1199,51 +1266,3 @@ section {
     }
 }
 
-#loader {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    z-index: 1;
-    width: 120px;
-    height: 120px;
-    margin: -76px 0 0 -76px;
-    border: 12px solid #f3f3f3;
-    border-radius: 50%;
-    border-top: 12px solid #E2001A;
-    -webkit-animation: spin .25s linear infinite;
-    animation: spin 0.25s linear infinite;
-  }
-  
-  @-webkit-keyframes spin {
-    0% { -webkit-transform: rotate(0deg); }
-    100% { -webkit-transform: rotate(360deg); }
-  }
-  
-  @keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
-  }
-  
-  /* Add animation to "page content" */
-  .animate-bottom {
-    position: relative;
-    -webkit-animation-name: animatebottom;
-    -webkit-animation-duration: 1s;
-    animation-name: animatebottom;
-    animation-duration: 1s
-  }
-  
-  @-webkit-keyframes animatebottom {
-    from { bottom:-100px; opacity:0 } 
-    to { bottom:0px; opacity:1 }
-  }
-  
-  @keyframes animatebottom { 
-    from{ bottom:-100px; opacity:0 } 
-    to{ bottom:0; opacity:1 }
-  }
-  
-  #myDiv {
-    display: none;
-    text-align: center;
-  }
