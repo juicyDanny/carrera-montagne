@@ -17,24 +17,27 @@
     <title>Productos Montagne</title>
 </head>
 
-<body>
-    <div id="categorias" class="contenedor">
-        <nav id="navbar">
-            <input type="checkbox" id="check">
-            <label for="check" class="checkbtn">
-                <i class="fas fa-bars"></i>
-            </label>
-            <a href="index.html" class="enlace">
-                <img src="img/montagne.svg" alt="" class="logoo">
-            </a>
-            <ul class="lista-navbar">
-                <li class="boton-menu"><a href="productos.html">PRODUCTOS</a></li>
-                <li class="boton-menu"><a href="maraton.html">MARATON</a></li>
-                <li class="boton-menu"><a href="planeta.html">PLANETA</a></li>
-                <li class="boton-menu"><a href="comunidad.html">COMUNIDAD</a></li>
-                <li class="boton-menu"><a href="contacto.html">CONTACTO</a></li>
-            </ul>
-        </nav>
+<body onload="myFunction()" style="margin:0;">
+
+    <div id="loader"></div>
+    <nav id="navbar">
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <a href="index.html" class="enlace">
+            <img src="img/montagne.svg" alt="" class="logoo">
+        </a>
+        <ul class="lista-navbar">
+            <li class="boton-menu"><a href="productos.html">PRODUCTOS</a></li>
+            <li class="boton-menu"><a href="maraton.html">MARATON</a></li>
+            <li class="boton-menu"><a href="planeta.html">PLANETA</a></li>
+            <li class="boton-menu"><a href="comunidad.html">COMUNIDAD</a></li>
+            <li class="boton-menu"><a href="contacto.html">CONTACTO</a></li>
+        </ul>
+    </nav>
+    <div id="categorias" class="contenedor animate-bottom" style="display:none;">
+        
         <div class="resaltado-productos">
             <h2>NUESTROS CATALOGO</h2>
         </div>

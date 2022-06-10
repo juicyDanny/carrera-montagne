@@ -1,3 +1,4 @@
+//Para ocultar barra de navegacion automaticamente.
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
 var currentScrollPos = window.pageYOffset;
@@ -11,13 +12,14 @@ var currentScrollPos = window.pageYOffset;
   prevScrollpos = currentScrollPos;
 }
 
+//Preloader para seccion de productos.
 var myVar;
 
 function myFunction() {
-  myVar = setTimeout(showPage, 3000);
+  myVar = setTimeout(showPage,500);
 }
 
 function showPage() {
   document.getElementById("loader").style.display = "none";
-  document.getElementById("myDiv").style.display = "block";
+  document.getElementById("categorias").style.display = "block";
 }

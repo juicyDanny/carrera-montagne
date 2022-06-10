@@ -1202,11 +1202,11 @@ section {
     width: 120px;
     height: 120px;
     margin: -76px 0 0 -76px;
-    border: 16px solid #f3f3f3;
+    border: 12px solid #f3f3f3;
     border-radius: 50%;
-    border-top: 16px solid #3498db;
-    -webkit-animation: spin 2s linear infinite;
-    animation: spin 2s linear infinite;
+    border-top: 12px solid #E2001A;
+    -webkit-animation: spin .25s linear infinite;
+    animation: spin 0.25s linear infinite;
   }
   
   @-webkit-keyframes spin {
