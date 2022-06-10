@@ -304,6 +304,9 @@ footer p {
 }
 
 /* CONTACTO */
+.contenedor-principal-contacto{
+    background-color: black;
+}
 form{
     
     margin: auto;
@@ -340,13 +343,13 @@ form input,textarea{
 
 .contenedor-contacto-imagen img {
     padding-top: 24px;
-    background-color: white;
+    background-color: rgb(0, 0, 0);
     height: auto;
     width: 100%;
 }
 
 .contenedor-contacto-imagen {
-    background-color: white;
+    background-color: rgb(0, 0, 0);
     margin: 10px 0px;
 }
 
