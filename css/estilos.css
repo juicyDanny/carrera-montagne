@@ -443,7 +443,9 @@ form input,textarea{
 }
 
 /* PRODUCTOS */
-
+.nuestro-catalogo{
+    margin-top: 85px;
+}
 .separador-productos {
     width: 100%;
     background-color: black;
@@ -455,7 +457,7 @@ form input,textarea{
 
 .catalogo {
     margin: auto;
-    margin-top: 80px;
+    margin-top: 20px;
     max-width: 60%;
     background-color: #000;
     -webkit-box-shadow: -1px 1px 5px 9px rgba(150, 150, 150, 0.50);
