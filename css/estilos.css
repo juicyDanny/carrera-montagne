@@ -165,7 +165,7 @@ footer p {
 
 /* HOME */
 .contenido-home {
-    padding-top: 50px;
+    padding-top: 35px;
 }
 
 .resaltado-home {
@@ -193,6 +193,7 @@ footer p {
 .vitriera-home {
     width: 100%;
     height: auto;
+    margin-bottom: -3px;
 }
 
 .vitriera-home img {
@@ -309,7 +310,7 @@ footer p {
 }
 
 .contenedor-contacto-imagen img {
-    padding-top: 40px;
+    padding-top: 24px;
     background-color: white;
     height: auto;
     width: 100%;
@@ -589,7 +590,7 @@ footer p {
 
 /*COMUNIDAD MONTAGNE*/
 .contenido-comunidad {
-    padding-top: 100px;
+    padding-top: 85px;
 }
 
 .boton-mas-info h4 {
@@ -794,13 +795,6 @@ footer p {
         display: grid;
     }
 
-    /* HEADER 
-    header,
-    header nav,
-    header nav li{
-        width: 100%;
-    }
-    */
     .boton-home {
         height: 46px;
         width: 188px;
@@ -847,10 +841,6 @@ footer p {
     }
 
     /* HOME MEDIA QUERY */
-    .vitriera-home {
-        height: 65px;
-    }
-
     .resaltado-home h2 {
         font-size: 10px;
     }
@@ -895,9 +885,6 @@ footer p {
         height: 236px;
     }
 
-    .vitriera-home {
-        margin-bottom: 24px;
-    }
 
     /* CONTACTO MEDIA QUERY */
     .contenedor-contacto-imagen {
@@ -1052,6 +1039,9 @@ nav {
     background-color: black;
     height: 85px;
     width: 100%;
+}
+
+#nav-sombra {
     -webkit-box-shadow: -1px 1px 5px 10px rgb(224, 41, 50);
     -moz-box-shadow: -1px 1px 5px 10px rgb(224, 41, 50);
     box-shadow: -1px 1px 5px 10px rgb(224, 41, 50);
