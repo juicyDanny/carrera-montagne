@@ -304,9 +304,38 @@ footer p {
 }
 
 /* CONTACTO */
+form{
+    
+    margin: auto;
+    background-color:#e02932;
+    width:900px;
+    text-align: center;
+}
+form p{
+    padding-top: 20px;
+    text-align: left;
+    padding-left: 90px;
+    width:100%;
+}
+form input,textarea{
+    width: 80%;
+}
+#cboxSuscripcion{
+    width: 10px;
+    margin-right: 5px;
+}
+.formulario{
+    color: #ffffff;
+    background-color:#000;
+}
 .separador-contacto {
     background-color: #E2001A;
     height: 1px;
+}
+.submit{
+    margin: 10px 0;
+    width: 100px;
+    height: 30px;
 }
 
 .contenedor-contacto-imagen img {
@@ -333,8 +362,7 @@ footer p {
 
 .primera-imagen-contacto img {
     background-color: black;
-    height: 206px;
-    width: 500px;
+    width: 900px;
     margin: 0px;
 }
 
@@ -414,7 +442,6 @@ footer p {
 /* PRODUCTOS */
 
 .separador-productos {
-    height: 90px;
     width: 100%;
     background-color: black;
 }
@@ -887,16 +914,27 @@ footer p {
 
 
     /* CONTACTO MEDIA QUERY */
+    form{
+    
+        margin: auto;
+        background-color:#e02932;
+        width:fit-content;
+        text-align: center;
+    }
+    form p{
+        padding-top: 20px;
+        text-align: left;
+        padding-left: 36px;
+        width:100%;
+    }
     .contenedor-contacto-imagen {
         padding-bottom: 0;
     }
 
-    .primera-imagen-contacto img {
+    .primera-imagen-contacto img{
         padding-top: 25px;
         width: 100%;
-        height: auto;
     }
-
     /* PLANETA MEDIA QUERY */
     .contenedor-planeta h3 {
         padding: 10px;
