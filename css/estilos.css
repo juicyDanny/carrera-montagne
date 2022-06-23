@@ -463,19 +463,22 @@ form input,textarea{
 .contenedor-planeta {
     background-color: #000000;
     color: #ffffff;
-    align-items: center;
+    text-align: left;
 }
 
 .contenedor-planeta h3 {
     margin: auto;
     padding: 30px 5px;
     width: 45%;
+    
 }
 
 .contenedor-planeta h4 {
     margin: auto;
     padding: 20px 5px;
     width: 80%;
+    text-align: center;
+    
 }
 
 .link-planeta {
@@ -1060,6 +1063,9 @@ form input,textarea{
         width: 100%;
     }
     /* PLANETA MEDIA QUERY */
+    .contenedor-planeta{
+        text-align: center;
+    }
     .contenedor-planeta h3 {
         padding: 10px;
         font-size: 20px;
