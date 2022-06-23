@@ -194,12 +194,73 @@ footer p {
     width: 100%;
     height: auto;
     margin-bottom: -3px;
+    position: relative;
 }
 
 .vitriera-home img {
     width: 100%;
 }
 
+#primera-imagen-home {
+    display: block
+}
+
+.slideshow-home {
+    display: none;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev {
+    left: 0;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+  
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
 .separador-home {
     background-color: black;
     height: 10px;
@@ -211,7 +272,7 @@ footer p {
 
 .tienda-home .articulo-home {
     display: inline-block;
-    margin: 20px 20px 0px 20px;
+    margin: 30px 20px 30px 20px;
 }
 
 .articulo-home .modelo-home {
@@ -265,14 +326,13 @@ footer p {
 
 .comunidad-home {
     background-image:
-        /* linear-gradient(rgba(0, 0, 0, 0.355), rgba(0, 0, 0, 0.355)), */
-        url(../img/comunidad-home.png);
+    linear-gradient(rgba(0, 0, 0, 0.699), rgba(0, 0, 0, 0.699)), url(../img/comunidad-home.png);
     background-size: cover;
     background-position: center;
 }
 
 .planeta-home {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.355), rgba(0, 0, 0, 0.355)), url(../img/planeta-home.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.699), rgba(0, 0, 0, 0.699)), url(../img/planeta-home.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -930,7 +990,7 @@ form input,textarea{
 
     .tienda-home .articulo-home {
         display: inline-block;
-        margin: 20px 10px 0px 10px;
+        margin: 30px 20px 30px 20px;
     }
 
     .articulo-home .modelo-home {
