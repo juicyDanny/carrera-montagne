@@ -32,6 +32,11 @@ header {
     background-color: #ffffff;
 }
 
+iframe{
+    padding:50px;
+    width: 1280px;
+    height: 720px;
+}
 
 /* HEADER */
 .boton-home {
@@ -360,6 +365,9 @@ footer p {
 }
 
 /* CONTACTO */
+.iframe-contacto{
+width: 1000px;
+}
 .contenedor-principal-contacto{
     background-color: black;
 }
@@ -1053,6 +1061,7 @@ form input,textarea{
         font-size: 20px;
         width: 80%;
     }
+    
 
     .contenedor-planeta h4 {
         font-size: 15px;
@@ -1149,6 +1158,11 @@ form input,textarea{
 
 /* PRODUCTOS MEDIA QUERY*/
 @media (max-width: 1280px) {
+    .iframe-contacto, iframe{
+        padding:10px;
+        width: 100%;
+        height: auto;
+    }
     .catalogo {
         margin-top: 60px;
         max-width: 100%;
