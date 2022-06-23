@@ -177,20 +177,20 @@ footer p {
     color: #ffffff;
 }
 
-.vitriera-home.boton-home,
-.vitriera-home img {
+.vidriera-home.boton-home,
+.vidriera-home img {
     margin: 0px;
     padding: 0px;
 }
 
-.vitriera-home {
+.vidriera-home {
     width: 100%;
     height: auto;
     margin-bottom: -3px;
     position: relative;
 }
 
-.vitriera-home img {
+.vidriera-home img {
     width: 100%;
 }
 
@@ -276,13 +276,16 @@ footer p {
     -ms-transform: scale(1);
     transform: scale(1);
     overflow: hidden;
-
 }
 
 .articulo-home .caja-home {
     height: 300px;
     position: relative;
     overflow: hidden;
+}
+
+.articulo-home h3{
+    margin-top: 13px;
 }
 
 .esquina-inferior-home,
@@ -471,7 +474,7 @@ form input,textarea{
     color: #E2001A;
 }
 
-.vitriera-planeta:hover {
+.vidriera-planeta:hover {
     transition: 1s;
     width: 100%;
     height: 1000px;
@@ -480,7 +483,7 @@ form input,textarea{
     background-size: cover;
 }
 
-.vitriera-planeta {
+.vidriera-planeta {
     transition: .5s;
     width: 100%;
     height: 500px;
@@ -526,14 +529,14 @@ form input,textarea{
     background-color: gray;
 }
 
-.vitriera-productos {
+.vidriera-productos {
     padding: 0;
     margin: 0;
     background-color: #000;
 
 }
 
-.vitriera-productos img {
+.vidriera-productos img {
     width: 100%;
 }
 
