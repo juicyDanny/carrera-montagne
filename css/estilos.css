@@ -131,7 +131,7 @@ footer p {
 footer {
     max-width: 100%;
     height: auto;
-    padding: 15px;
+    padding: 15px 0px;
     background-image: linear-gradient(rgba(255, 255, 255, 0.521), rgba(255, 255, 255, 0.521)), url(../img/montaña-1.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -139,12 +139,12 @@ footer {
 }
 
 .redes-sociales img {
-    width: 100px;
+    width: 65px;
     transform: translateY(25px);
 }
 
 .redes-sociales ul {
-    padding: 50px 0px;
+    padding: 50px;
     margin: 0px;
 }
 
@@ -153,7 +153,7 @@ footer {
 }
 
 .redes-sociales li {
-    padding: 0px 50px;
+    padding: 0px 10px;
 }
 
 footer p {
