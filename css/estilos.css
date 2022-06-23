@@ -132,7 +132,7 @@ footer {
     max-width: 100%;
     height: auto;
     padding: 15px;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.271), rgba(255, 255, 255, 0.195)), url(../img/montaña-1.jpg);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.521), rgba(255, 255, 255, 0.521)), url(../img/montaña-1.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -160,6 +160,10 @@ footer p {
     margin-bottom: 0px;
 }
 
+.logo-uade img{
+    width: 100px;
+    margin: auto;
+}
 
 /* HOME */
 .contenido-home {
