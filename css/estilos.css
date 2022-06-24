@@ -984,8 +984,11 @@ form input,textarea{
     /* FOOTER */
     footer {
         padding: 0px;
+        text-align: center;
     }
-
+    .redes-sociales ul{
+        padding: 10px;
+    }
     .redes-sociales li {
         padding: 0px 5px;
     }
@@ -998,6 +1001,7 @@ form input,textarea{
     .resaltado-home h2 {
         font-size: 10px;
     }
+
 
     .tienda-home .articulo-home {
         display: inline-block;
