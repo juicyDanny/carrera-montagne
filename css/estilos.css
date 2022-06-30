@@ -17,7 +17,8 @@ body {
     padding: 0;
     display: block;
     text-align: center;
-    font-family: 'Graduate', cursive;
+    /* font-family: 'Graduate', cursive; */
+    font-family: 'Roboto', sans-serif;
     width: 100%;
     grid-template-rows: auto 1fr auto;
 }
@@ -144,7 +145,7 @@ footer {
 }
 
 .redes-sociales ul {
-    padding: 50px;
+    padding: 0px;
     margin: 0px;
 }
 
@@ -175,6 +176,7 @@ footer p {
     color: #ffffff;
     margin: 0px;
     padding: 5px;
+    font-family: 'Graduate', cursive;
 }
 
 .resaltado-home h2 {
@@ -458,6 +460,7 @@ form input,textarea{
 
 .titulo-planeta {
     color: #ffffff;
+    font-family: 'Graduate', cursive;
 }
 
 .contenedor-planeta {
@@ -470,7 +473,7 @@ form input,textarea{
     margin: auto;
     padding: 30px 5px;
     width: 45%;
-    
+    text-align: center;
 }
 
 .contenedor-planeta h4 {
@@ -579,6 +582,7 @@ form input,textarea{
     text-decoration: underline;
     text-decoration-color: black;
     padding: 5px;
+    font-family: 'Graduate', cursive;
 }
 
 .contenedor-categorias,
@@ -695,6 +699,11 @@ form input,textarea{
   }
 /* PREMIOS */
 
+
+.contenido-premio {
+    font-family: 'Graduate', cursive;
+}
+
 .imagen-chalten img {
     padding-top: 95px;
     height: auto;
@@ -709,7 +718,7 @@ form input,textarea{
 }
 
 .premios {
-    background-image: url(../img/fondo-oscuro-premios.png);
+    background-image: url(../img/fondo-oscuro-premios.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -745,6 +754,10 @@ form input,textarea{
 /*COMUNIDAD MONTAGNE*/
 .contenido-comunidad {
     padding-top: 85px;
+}
+
+.contenido-comunidad h2 {
+    font-family: 'Graduate', cursive;
 }
 
 .boton-mas-info h4 {
@@ -789,6 +802,8 @@ form input,textarea{
     align-items: center;
     width: 100%;
     margin: 0 auto;
+    display: flex;
+    justify-content: center;
 }
 
 .contenedor-actividad {
@@ -878,6 +893,7 @@ form input,textarea{
     font-size: 50px;
     background-color: rgb(31, 17, 17);
     color: aliceblue;
+    font-family: 'Graduate', cursive;
 }
 
 .columnas-maraton .caja-maraton {
@@ -898,6 +914,7 @@ form input,textarea{
     color: aliceblue;
     border-right: black 2px solid;
     min-height: 978px;
+    padding-top: 20px;
 }
 
 .info i {
@@ -1146,6 +1163,10 @@ form input,textarea{
 
     /* COMUNIDAD */
 
+    .triptico-comunidad{
+        flex-wrap: wrap;
+    }
+
     .beneficios-triptico,
     .beneficios-left,
     .beneficios,
@@ -1233,6 +1254,7 @@ nav {
     background-color: black;
     height: 85px;
     width: 100%;
+    font-family: 'Graduate', cursive;
 }
 
 #nav-sombra {
@@ -1249,7 +1271,7 @@ nav {
     padding: 16px 50px;
 }
 
-.logoo {
+.logo {
     text-align: left;
     padding-right: 50px;
     height: 50px;
